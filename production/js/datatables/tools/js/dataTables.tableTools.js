@@ -2719,7 +2719,7 @@ TableTools.BUTTONS = {
 	"copy": $.extend( {}, TableTools.buttonBase, {
 		"sAction": "flash_copy",
 		"sButtonClass": "DTTT_button_copy",
-		"sButtonText": "Copy",
+		"sButtonText": "Copiar",
 		"fnClick": function( nButton, oConfig, flash ) {
 			this.fnSetText( flash, this.fnGetTableData(oConfig) );
 		},
@@ -2764,7 +2764,7 @@ TableTools.BUTTONS = {
 		"bShowAll": true,
 		"sToolTip": "View print view",
 		"sButtonClass": "DTTT_button_print",
-		"sButtonText": "Print",
+		"sButtonText": "Imprimir",
 		"fnClick": function ( nButton, oConfig ) {
 			this.fnPrint( true, oConfig );
 		}
